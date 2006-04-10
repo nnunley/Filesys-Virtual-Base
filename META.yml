@@ -1,0 +1,8 @@
+--- #YAML:1.0
+name: Filesys-Virtual-Base
+version: 0.1
+author:
+  - Norman Nunley E<lt>nnunley@cpan.orgE<gt>, based on the work of David Davis, E<lt>xantus@cpan.orgE<gt>, http://teknikill.net/
+abstract: A base class for virtual filesystems
+license: perl
+generated_by: Module::Build version 0.2611, without YAML.pm
