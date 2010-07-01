@@ -5,7 +5,8 @@ my $build = Module::Build->new(
   module_name => 'Filesys::Virtual::Base',
   license => 'perl',
   requires => {
-    Filesys::Virtual => undef
+    Filesys::Virtual => undef,
+    Class::Accessor::Fast => undef,
   },
   build_requires => {
     Test::More => undef

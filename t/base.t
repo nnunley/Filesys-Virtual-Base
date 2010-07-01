@@ -23,8 +23,8 @@ is_deeply [ $fs->list('/') ], [ qw( a b ) ] or diag Dumper([ $fs->list('/') ]);
 is $fs->size('/a'), 7, "We have the 'right' size (stat field 7)";
 
 is_deeply( [$fs->list_details('/') ], [
-"--------w-    3 4        5               7 Jan  1  1970 a",
-"--------w-    3 4        5               7 Jan  1  1970 b",
+"--------w-    3 4        5               7 Dec 31  1969 a",
+"--------w-    3 4        5               7 Dec 31  1969 b",
 ]) or diag Dumper([ $fs->list_details('/') ]);
 
 is $fs->chdir('/a'), '/a', "Should be in the 'a' directory";
