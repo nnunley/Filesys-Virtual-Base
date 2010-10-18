@@ -1,8 +1,25 @@
---- #YAML:1.0
-name: Filesys-Virtual-Base
-version: 0.2
+---
+abstract: 'A base class for virtual filesystems'
 author:
-  - Norman Nunley E<lt>nnunley@cpan.orgE<gt>, based on the work of David Davis, E<lt>xantus@cpan.orgE<gt>, http://teknikill.net/
-abstract: A base class for virtual filesystems
+  - 'Norman Nunley E<lt>nnunley@cpan.orgE<gt>, based on the work of David Davis, E<lt>xantus@cpan.orgE<gt>, http://teknikill.net/'
+build_requires:
+  Module::Build: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
 license: perl
-generated_by: Module::Build version 0.2611, without YAML.pm
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Filesys-Virtual-Base
+provides:
+  Filesys::Virtual::Base:
+    file: lib/Filesys/Virtual/Base.pm
+    version: 0.4
+requires:
+  Class::Accessor::Fast: 0
+  Filesys::Virtual: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.4
