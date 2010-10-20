@@ -12,6 +12,7 @@ my $build = Module::Build->new(
     Module::Build => 0,
     Test::More => 0 
   },
+  configure_requires => { 'Module::Build' => 0.36 },
   auto_configure_requires => 1,
   create_makefile_pl => 'traditional',
 );

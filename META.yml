@@ -7,7 +7,7 @@ build_requires:
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+generated_by: 'Module::Build version 0.3613'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,10 +16,10 @@ name: Filesys-Virtual-Base
 provides:
   Filesys::Virtual::Base:
     file: lib/Filesys/Virtual/Base.pm
-    version: 0.4
+    version: v0.4.1
 requires:
   Class::Accessor::Fast: 0
   Filesys::Virtual: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.4
+version: v0.4.1

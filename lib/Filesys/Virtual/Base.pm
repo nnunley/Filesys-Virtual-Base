@@ -3,7 +3,7 @@ package Filesys::Virtual::Base;
 use strict;
 use warnings;
 
-our $VERSION = "0.4";
+our $VERSION = "0.4.1";
 use base qw(
 	Filesys::Virtual
 	Class::Accessor::Fast
